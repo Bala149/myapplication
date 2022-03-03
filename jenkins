@@ -1,0 +1,20 @@
+pipeline
+{
+agent any
+stages
+{
+ stage('commit')
+ {
+  steps
+  {
+   echo "source code download from the github to declarative pipeline....."
+  }
+ }
+ stage('Build')
+ {
+  steps
+  {
+   echo "This is Build Project Run With Maven Tool....."
+  }
+ }
+ 
